@@ -10,7 +10,7 @@ name = "coqui-tts-trainer"
 version = "0.1.5"
 description = "General purpose model trainer for PyTorch that is more flexible than it should be, by 🐸Coqui."
 readme = "README.md"
-requires-python = ">=3.9, <3.13"
+requires-python = "==3.11.9"
 license = {text = "Apache-2.0"}
 authors = [
     {name = "Eren Gölge", email = "egolge@coqui.ai"}
@@ -45,7 +45,7 @@ dependencies = [
     "numpy>=1.26.0; python_version >= '3.12'",
     "psutil>=5",
     "soundfile>=0.12.0",
-    "tensorboard>=2.17.0",
+    "tensorboard<=2.15.2",
     "torch>=2.0",
 ]
 
